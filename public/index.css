@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.todo {
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, .5);
+    margin: 10px auto;
+}
+
+.todo form > label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
